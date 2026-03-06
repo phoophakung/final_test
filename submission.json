@@ -1,11 +1,11 @@
 {
-  "student_id": "รหัสนักศึกษาของคุณ",
-  "name": "ชื่อ-นามสกุลของคุณ",
-  "github_repo": "https://github.com/phoophakung/final_test",
-  "backend_base_url": "https://final-test.onrender.com",
-  "frontend_url": "https://majestic-praline-1a7640.netlify.app",
-  "api": {
-    "health": "https://final-test.onrender.com/api/health",
-    "tasks": "https://final-test.onrender.com/api/tasks"
-  }
+    "student_id": "6604101312",
+    "name": "จักรพงศ์ พรหมตัน",
+    "github_repo": "https://github.com/phoophakung/final_test",
+    "backend_base_url": "https://final-test-gcxv.onrender.com/api",
+    "frontend_url": "https://majestic-praline-1a7640.netlify.app",
+    "api": {
+        "health": "https://final-test-gcxv.onrender.com/api/health",
+        "tasks": "https://final-test-gcxv.onrender.com/api/tasks"
+    }
 }
