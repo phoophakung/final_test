@@ -8,7 +8,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware
-app.use(cors());  // อนุญาต cross-origin จาก frontend
+app.use(cors({
+    origin: 'https://majestic-praline-1a7640.netlify.app'
+})); // อนุญาต cross-origin จาก frontend
 app.use(express.json());
 
 // สร้างโฟลเดอร์ logs ถ้ายังไม่มี (สำหรับ volume demo)
